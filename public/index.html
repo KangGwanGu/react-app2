@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Web site created using create-react-app" />
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+  <title>React App</title>
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+  <hr>
+
+  <script>
+
+    let arr = ['목', '금'];
+
+    arr.push('토');
+    arr.unshift('일', '월', '화', '수');
+    arr.pop();
+
+
+    // console.log(arr);
+
+    // for(let day of arr) {
+    //   console.log(day);
+    // }
+
+    const numbers = [1, 2, 3, 4, 5];
+
+    const result = numbers.reduce((p, c, i) => {
+
+      console.log(p,c,i);
+      return p + c + i;
+
+    });
+
+    console.log(result);
+    
+
+
+
+    // [4, 5];
+
+    // // array 요소가 수정되는 경우
+    // const numbers = [1, 2, 3, 4, 5];
+
+    // const result = numbers.filter(number => {
+    //     numbers.pop();
+    //     return number > 3;
+    // });
+
+    // console.log(result);
+
+
+
+
+
+  </script>
+
+
+</body>
+
+</html>
