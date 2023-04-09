@@ -16,15 +16,7 @@ function getIndex() {
   return index;  
 }
 
-class Square extends Component {
-  render() {
-    return (
-      <button onClick={()=> alert(index++) }>
-        {this.props.value}
-      </button>
-    )
-  }
-}
+
 
 class App extends Component {
   constructor(props) {
